@@ -8,5 +8,8 @@
   "name": "MCDX",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "52.0"
+  "sourceApiVersion": "52.0",
+  "packageAliases": {
+        "Package_One_Feature1a": "0Ho5g0000008OWMCA2"
+  }
 }
