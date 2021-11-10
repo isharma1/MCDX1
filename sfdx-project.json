@@ -2,6 +2,7 @@
   "packageDirectories": [
     {
       "path": "force-app",
+      "package": "Package_One_Feature1a",
       "default": true
     }
   ],
