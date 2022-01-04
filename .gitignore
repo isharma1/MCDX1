@@ -1,0 +1,10 @@
+#sfdx project files
+.sfdx
+
+#editor files
+.idea
+.vscode
+.code
+
+#sfdx metadata
+**/myFileType/**
