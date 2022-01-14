@@ -352,6 +352,10 @@
     <layoutAssignments>
         <layout>SemanticCustObj__c-SemanticCustObj Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>SemanticCustObj__c-SemanticCustObj Layout</layout>
+        <recordType>SemanticCustObj__c.SemanticRT</recordType>
+    </layoutAssignments>
     <loginHours n1:nil="true" />
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -433,6 +437,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Planet__c.Ice_Desert</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>SemanticCustObj__c.SemanticRT</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
