@@ -13,15 +13,14 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SemanticCustObj__c.SemanticField1__c</field>
+        <field>Asset.Very_important_asset__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SemanticCustObj__c-SemanticCustObj Layout</layout>
-        <recordType>SemanticCustObj__c.SemanticRT</recordType>
+        <layout>Asset-Formato de activos</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <objectPermissions>
