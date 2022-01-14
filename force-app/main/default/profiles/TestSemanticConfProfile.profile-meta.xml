@@ -306,6 +306,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ST_Cust_Obj__c.ST_field2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SemanticCustObj__c.SemanticField1__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -348,6 +353,9 @@
     <layoutAssignments>
         <layout>Planet__c-Planet Layout</layout>
         <recordType>Planet__c.Ice_Desert</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ST_Cust_Obj__c-ST Cust Obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SemanticCustObj__c-SemanticCustObj Layout</layout>
@@ -407,7 +415,16 @@
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ST_Cust_Obj__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>SemanticCustObj__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
