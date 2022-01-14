@@ -65,7 +65,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <historyRetentionPolicy n1:nil="true" />
-    <label>Pinett Object</label>
+    <label>Pinett Object-v2</label>
     <nameField>
         <label>Pinett Object Name</label>
         <type>Text</type>
