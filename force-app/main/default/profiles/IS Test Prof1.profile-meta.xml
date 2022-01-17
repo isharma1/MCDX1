@@ -6,6 +6,10 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
+      <classAccesses>
+        <apexClass>AccountCreation02</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <classAccesses>
         <apexClass>AccountCreation01</apexClass>
         <enabled>false</enabled>
